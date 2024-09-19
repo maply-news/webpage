@@ -1,1 +1,187 @@
-<a>Hi</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maply News – AI-Powered News Visualization on a Global Map</title>
+    <style>
+        :root {
+            --blue-violet: #9A29D6;
+            --palatinate-blue: #4134CB;
+            --rich-black: #081225;
+            --rich-black-2: #101223;
+            --oxford-blue: #081228;
+        }
+        body {
+            font-family: Heebo, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background-color: var(--rich-black);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: var(--oxford-blue);
+            padding: 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 75%;
+            height: auto;
+        }
+        .hero {
+            background: linear-gradient(45deg, var(--blue-violet), var(--palatinate-blue));
+            color: #ffffff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            color: #ffffff;
+            background: var(--rich-black-2);
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background: var(--oxford-blue);
+        }
+        .features, .capabilities, .how-it-works, .get-started, .faq {
+            padding: 30px 0;
+        }
+        .features h2, .capabilities h2, .how-it-works h2, .get-started h2, .faq h2 {
+            text-align: center;
+            color: var(--palatinate-blue);
+        }
+        .feature-list, .capability-list, .how-it-works-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li, .capability-list li, .how-it-works-list li {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+        }
+        .feature-list li:before, .capability-list li:before, .how-it-works-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--palatinate-blue);
+        }
+        .screenshot-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .screenshot {
+            width: 45%;
+            text-align: center;
+            margin: auto;
+        }
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .get-started {
+            background: var(--rich-black-2);
+            text-align: center;
+        }
+        .faq h3 {
+            color: var(--palatinate-blue);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <img src="logo.jpeg" alt="Maply News Logo">
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <h1>See the World Unfold with Maply News</h1>
+        <p>Maply News brings you real-time updates from hundreds of sources, analyzing and displaying news events on a dynamic world map. Stay informed and never miss a global event.</p>
+        <a href="#" class="btn">Get Started</a>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <h2>Why Maply News?</h2>
+        <ul class="feature-list">
+            <li><strong>Global News at a Glance:</strong> Maply News aggregates news from across the world and pins it on a map, making it easier for you to see what's happening in real-time. Explore regional or global events with ease.</li>
+            <li><strong>AI-Powered Insights:</strong> Our AI continuously analyzes hundreds of news sources, identifying critical events and delivering them to you with precision. No more sifting through irrelevant stories—Maply News brings you only what matters.</li>
+            <li><strong>Real-Time Updates:</strong> Stay up to date with the latest headlines from around the world. As soon as a news story breaks, it appears on our map with time-stamped accuracy.</li>
+            <li><strong>Comprehensive Filtering:</strong> Customize your news experience. Filter by location, source, or type, and even search for specific terms. Whether you're interested in local events or major international developments, Maply News has you covered.</li>
+            <li><strong>Interactive Map Interface:</strong> Click on any pin on the map to get instant access to headlines, sources, and in-depth event details. You'll see not just where it's happening but also why it's important.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="capabilities">
+    <div class="container">
+        <h2>Maply News App: Features and Capabilities</h2>
+        <ul class="capability-list">
+            <li><strong>Global Map-Based News Visualization:</strong> News events displayed as clickable, color-coded pins across a world map.</li>
+            <li><strong>Real-Time News Updates:</strong> Dynamic updates with time stamps and source information, including social media integration.</li>
+            <li><strong>Advanced Filter and Search Functionality:</strong> Filter by locations, sources, type, and date range. Keyword search available.</li>
+            <li><strong>News Categorization and Alerts:</strong> Visual distinction of different news types, including critical alerts.</li>
+            <li><strong>Detailed Event Sidebar:</strong> Access comprehensive information about each news story directly from the map.</li>
+            <li><strong>Social Media Integration:</strong> Incorporates news from platforms like TikTok and Twitter.</li>
+            <li><strong>Customizable Alerts:</strong> Set up personalized notifications for specific regions or news types.</li>
+            <li><strong>Historical Data Access:</strong> Browse past news events by adjusting the time range.</li>
+            <li><strong>Localized and Global Views:</strong> Zoom functionality for detailed regional or broad global perspectives.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="how-it-works">
+        <h2>Explore the Map Interface</h2>
+        <div class="screenshot">
+            <img src="example.jpeg" alt="Detailed News">
+            <p>Get full stories, sources, and event history without leaving the map.</p>
+        </div>
+</section>
+
+<section class="how-it-works">
+    <div class="container">
+        <h2>How Does Maply News Work?</h2>
+        <ol class="how-it-works-list">
+            <li><strong>Aggregation:</strong> Our AI pulls news from hundreds of reputable sources worldwide, including social media platforms like Twitter and TikTok, as well as traditional news outlets.</li>
+            <li><strong>Analysis:</strong> The AI engine analyzes each news story for relevance, importance, and location. Critical alerts and breaking news are prioritized.</li>
+            <li><strong>Visualization:</strong> News stories are displayed as pins on the map, categorized by event type and location. You can zoom in for localized news or zoom out to get a global perspective.</li>
+            <li><strong>Customization:</strong> Refine your feed by applying filters for location, time, source, or event type. You can even search for specific terms to narrow down the stories that matter most to you.</li>
+        </ol>
+    </div>
+</section>
+
+
+<section class="faq">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <h3>What sources does Maply News pull from?</h3>
+        <p>Maply News gathers news from a variety of trusted sources, including social media platforms like Twitter and TikTok, as well as leading news outlets.</p>
+        <h3>Can I customize the news I see?</h3>
+        <p>Yes! Use our filter options to view news by location, source, or type. You can also search for specific news using keywords.</p>
+        <h3>Is Maply News available on mobile?</h3>
+        <p>Yes, Maply News is available on both web and mobile platforms for seamless news access wherever you are.</p>
+    </div>
+</section>
+</body>
+</html>
